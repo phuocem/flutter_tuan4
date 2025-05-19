@@ -16,15 +16,7 @@ class  HomePage extends StatelessWidget {
         durationMinutes: 240,
         tags: ["flutter", "mobile", "beginner"]
     ),
-    Course(
-        id: "c2",
-        title: "Advanced Flutter",
-        imageUrl: 'https://multigenesys.com/wp-content/uploads/2025/02/Advanced-Techniques-for-Dealing-with-Accidental-Multiple-Taps-in-Flutter-Apps.png',
-        description: "Khám phá các tính năng nâng cao của Flutter.",
-        instructor: "Nguyễn Văn B",
-        durationMinutes: 180,
-        tags: ["flutter", "mobile", "advanced"]
-    ),
+
 
     Course(
       id: "c3",
@@ -35,42 +27,8 @@ class  HomePage extends StatelessWidget {
       durationMinutes: 120,
       tags: ["dart", "programming", "beginner"]
     ),
-    Course(
-      id: "c4",
-      title: "Web Development with Flutter",
-      imageUrl: 'https://miro.medium.com/v2/resize:fit:1024/1*wxoy5YscxLPFayqBF8hwOQ.png',
-      description: "Xây dựng ứng dụng web với Flutter.",
-      instructor: "Nguyễn Văn D",
-      durationMinutes: 300,
-      tags: ["flutter", "web", "development"]
-    ),
-    Course(
-      id: "c6",
-      title: "UI/UX Design with Flutter",
-      imageUrl: 'https://www.whitelotuscorporation.com/wp-content/uploads/2023/05/Flutter-UI-Design-Creating-Stunning-Interfaces-with-Flutters-Widgets.webp',
-      description: "Thiết kế giao diện người dùng với Flutter.",
-      instructor: "Nguyễn Văn F",
-      durationMinutes: 200,
-      tags: ["flutter", "ui", "ux"]
-    ),
-    Course(
-      id: "c7",
-      title: "Game Development with Flutter",
-      imageUrl: 'https://static1.xdaimages.com/wordpress/wp-content/uploads/2021/12/Untitled3.jpg',
-      description: "Phát triển trò chơi với Flutter.",
-      instructor: "Nguyễn Văn G",
-      durationMinutes: 250,
-      tags: ["flutter", "game", "development"]
-    ),
-    Course(
-      id: "c8",
-      title: "Flutter for Web",
-      imageUrl: 'https://hypersense-software.com/blog/wp-content/uploads/2023/07/Blog_post-1920x1080-Flutter-Web.jpg',
-      description: "Học cách phát triển ứng dụng web với Flutter.",
-      instructor: "Nguyễn Văn H",
-      durationMinutes: 220,
-      tags: ["flutter", "web", "development"]
-    ),
+
+
     Course(
       id: "c9",
       title: "Flutter for Desktop",

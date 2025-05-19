@@ -51,7 +51,6 @@ class CartPage extends StatelessWidget {
                         }),
                         children: [
                           SlidableAction(
-                            flex: 1, // ✅ làm nút nhỏ hơn
                             onPressed: (context) {
                               cartProvider.removeItem(course);
                               ScaffoldMessenger.of(context).showSnackBar(
@@ -104,7 +103,7 @@ class CartPage extends StatelessWidget {
                                 const SizedBox(width: 6),
                                 Expanded(
                                   child: Text(
-                                    '${course.durationMinutes} phút • ${course.instructor}',
+                                    '${course.durationMinutes} giờ • ${course.instructor}',
                                     maxLines: 1,
                                     overflow: TextOverflow.ellipsis,
                                     style: theme.textTheme.bodySmall?.copyWith(
